@@ -283,7 +283,6 @@
         <section id="footer_teasers_wrapper">
             <div class="container">
                 <div class="footer_div">
-                <!--</div>-->
                     <div class="footer_teaser">
                         <div id="footer_container">
                             <script id="footer_template" type="x-tmpl-mustache/text">
