@@ -93,7 +93,8 @@
             });      
         });
         
-        setEndPoint('//westmountplace.mallmaverick.com/api/v4/westmountplace/all.json');
+        // setEndPoint('//westmountplace.mallmaverick.com/api/v4/westmountplace/all.json');
+        setEndPoint('//twinpine.mallmaverick.com/api/v4/twinpine/all.json');
     </script>
     <style>
         /*custom styles*/
