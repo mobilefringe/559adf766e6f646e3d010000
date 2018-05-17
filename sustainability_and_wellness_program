@@ -102,7 +102,7 @@ if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
                             }
                             val.store_name = store_details.name
                         } else {
-                            val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/5564c1ec6e6f640f57660000/4e48a59cc7477b521dd627f2305104a1/default.jpg"
+                            val.alt_promo_image_url = "//codecloud.cdn.speedyrails.net/sites/559adf766e6f646e3d010000/88342bf1570373ae0dd56a3e0de87b11/default.jpg"
                         }
                     } else {
                         val.alt_promo_image_url = (val.promo_image_url_abs);
