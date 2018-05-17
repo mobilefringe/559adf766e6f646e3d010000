@@ -217,7 +217,7 @@
 <header>
     <a class="accessible" href="#page_content">[Skip to Content]</a>
      <div class="container">
-          <div class="navbar navbar-default" role="navigation">
+          <nav class="navbar navbar-default" role="navigation">
                <div class="navbar-header"><a class="navbar-brand" href="/home" id="site_logo">
                <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}" alt="Westmount Place">{% endraw %}</script>
                </a><a href="#" class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left"><span class="fa fa-reorder"></span></span><p style="display:none">menu</p> </a></div>
@@ -247,7 +247,7 @@
                     </ul>
                 </div>
 
-                <div class="collapse navbar-collapse">              
+                <nav class="collapse navbar-collapse">              
                     <ul class="nav pull-right navbar-nav">
                         
                          <li><a href="/stores">Store Directory</a></li>
@@ -269,8 +269,8 @@
                             </ul> 
                          </li>
                     </ul>
-               </div>
-          </div>
+               </nav>
+          </nav>
           <a href="//bentallkennedy.com/" target="_blank">
               <div class="bk_logo_svg"><p style="display:none;">Bentall Kennedy</p></div>
           </a>
