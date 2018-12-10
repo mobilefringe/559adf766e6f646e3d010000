@@ -91,7 +91,7 @@
             var temp_banner = getRepoDetailsByName('Jobs Banner');
             if(temp_banner && temp_banner.images){
                 temp_banner = temp_banner.images;
-                $("#inside_banner_image").attr('src', temp)
+                $("#inside_banner_image").attr('src', temp_banner[0].image_url)
             }
             
             $("#loading_screen").hide();
