@@ -13,7 +13,7 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="" src="//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1544457194000/Westmount Place 2 .jpg"/>
+            <img class="inside_banner_image" id="inside_banner_image" alt="" src="//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1544457194000/Westmount Place 2 .jpg"/>
             <div class="mobile_cat_list" style="display:none">
                 <p class="right_column_header">categories</p>
                 <div id="mobile_categories_container">
