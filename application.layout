@@ -241,7 +241,7 @@
             position: absolute;
             right: unset;
             left: 0;
-            bottom: -30px;
+            bottom: -45px;
             background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1579718284000/K.REIT.Green.jpeg);
             background-size: contain; 
             background-repeat: no-repeat;
