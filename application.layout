@@ -96,14 +96,14 @@
     </script>
     <style>
         /*custom styles*/
-        .bk_logo_svg {
+        .k-reit-logo {
         width: 194px;
         height: 70px;
         display: block;
         position: absolute;
         right: 0;
         bottom: -5px;
-        background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
+        background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1579718284000/K.REIT.Green.jpeg);
         background-size: 194px 95px;
         background-repeat: no-repeat;
     }
@@ -234,7 +234,7 @@
                 border:15px solid #eaf1fb !important;
                 border-top:none !important;
             }  
-            .bk_logo_svg {
+            .k-reit-logo {
             width: 194px;
             height: 70px;
             display: block;
@@ -242,7 +242,7 @@
             right: unset;
             left: 0;
             bottom: -30px;
-            background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/055/172/original/BK_Logo_Oaks.svg?1561652010);
+            background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1579718284000/K.REIT.Green.jpeg);
             background-size: 194px 95px;
             background-repeat: no-repeat;
         }
@@ -401,7 +401,7 @@
                         </div>
                     </div>
                      <a href="//bentallgreenoak.com" target="_blank">
-                    <div class="bk_logo_svg"><p style="display:none">Bentall Kennedy</p></div>
+                    <div class=".k-reit-logo"><p style="display:none">Killam Reit</p></div>
                 </a>
                 </div>
             </div>
