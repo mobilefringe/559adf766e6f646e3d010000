@@ -21,17 +21,6 @@
                         <p class="directory_content">{{name}}</p>
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                        <br>
-                        <p class="directory_content"><strong>Dan Free</strong> 
-                        <br>General Manager
-                        <br>(905) 822-0344
-                        <br><a href="mailto:dfree@bentallkennedy.com">dfree@bentallkennedy.com</a></p>
-                        <br>
-                        <p class="directory_content"><strong>Paul Ceresne</strong> 
-                        <br>Director, Leasing*
-                        <br>1.866.681.2715
-                        <br><a href="mailto:pceresne@bentallkennedy.com">pceresne@bentallkennedy.com</a>
-                        <br>*Sales Representative</p>
                     </script>
                 </div>
             </div>
