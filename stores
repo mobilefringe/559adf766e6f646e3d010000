@@ -20,7 +20,6 @@
                     <a href="#categories_container" onclick="(show_cat('view_all', 'all'))" id="mobile_view_all_link" class="cat_links directory_content" style="font-weight:bold">View All</a><br>
                 </div>
             </div>
-            
             <div class="directory_div" id="no_cat_list">
                 <p class="directory_header_name directory_name_col">Merchant Name</p><p class="directory_header_phone directory_phone_col">Phone</p>
                 <div class="store_list" id="store_list_container">
@@ -29,7 +28,6 @@
                         {{#phone}}<a href="tel:{{phone}}"><p class="directory_content directory_phone_col">{{phone}}</p></a>{{/phone}}
                     </script>
                 </div>
-                
             </div>
             <div class="directory_div" id="store_category_list_container">
                 <script id="category_store_list_template" type="x-tmpl-mustache/text">
@@ -41,11 +39,10 @@
             </div>
         </div>
         <div class="right_column">
-            <!--<a href="/map" id="map_link"><p class="right_column_header">centre map</p></a>-->
-            <br>
             <p class="right_column_header">categories</p>
             <div id="categories_container">
-                <a href="#categories_container" onclick="(show_cat('view_all', 'all'))" id="view_all_link" class="cat_links directory_content" style="font-weight:bold">View All</a><br>
+                <a href="#categories_container" onclick="(show_cat('view_all', 'all'))" id="view_all_link" class="cat_links directory_content" style="font-weight:bold">View All</a>
+                <br>
             </div>
             <br>
             <p class="right_column_header">centre information</p>
@@ -56,8 +53,6 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                 </script>
             </div>
-            
-            
         </div>
     </div>
 </div>
