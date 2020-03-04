@@ -325,12 +325,11 @@
                             {% raw %}
                             <h3 class="footer_text" style="font-size:17px;width:300px;">{{name}}</h3>
                             <p class="footer_text" style="width:300px;font-size:17px">
-                            {{address1}}</br>
-                            {{city}}, {{province_state}}, {{postal_code}}
-                        
+                                {{address1}},</br>
+                                {{city}}, {{province_state}}, {{postal_code}}
                             </p>
-                            <p><i class="fa fa-phone"></i>        {{contact_phone}}</p>
-                            <p><i class="fa fa-envelope"></i> <a href="mailto:{{contact_email}}">        {{contact_email}}</a></p>
+                            <p><i class="fa fa-phone"></i>&nbsp;{{contact_phone}}</p>
+                            <p><i class="fa fa-envelope"></i>&nbsp;<a href="mailto:{{contact_email}}">{{contact_email}}</a></p>
                             </br>
                             {% endraw %}
                             </script>
