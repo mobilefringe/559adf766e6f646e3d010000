@@ -21,12 +21,10 @@
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">{{name}}</p>
-                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{address1}},</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                 </script>
             </div>
-            
-            
         </div>
     </div>
 </div>
@@ -39,7 +37,6 @@
             $("#main_content").show();
         }
         
-    
         function renderPageData(container, template, collection, type){
             var item_list = [];
             var item_rendered = [];
@@ -53,17 +50,12 @@
             $.each( collection , function( key, val ) {
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-    
             });
             
             $(container).show();
             $(container).html(item_rendered.join(''));
         };
 
-        loadMallData(renderAll);  
-
-    
-  
+        loadMallData(renderAll);
     });
-    
 </script>
