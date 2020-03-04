@@ -235,17 +235,16 @@
                 border-top:none !important;
             }  
             .k-reit-logo {
-            width: 194px;
-            height: 70px;
-            display: block;
-            position: absolute;
-            right: unset;
-            left: 0;
-            bottom: -45px;
-            /*background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1579718284000/K.REIT.Green.jpeg);*/
-            background-size: contain; 
-            background-repeat: no-repeat;
-        }
+                width: 194px;
+                height: 70px;
+                display: block;
+                position: absolute;
+                right: unset;
+                left: 0;
+                bottom: -45px;
+                background-size: contain; 
+                background-repeat: no-repeat;
+            }
         }
     </style>
 </head>
