@@ -97,16 +97,16 @@
     <style>
         /*custom styles*/
         .k-reit-logo {
-        width: 194px;
-        height: 70px;
-        display: block;
-        position: absolute;
-        right: 0;
-        bottom: -5px;
-        background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/png/1581004434000/KREIT.White.png);
-        background-size: contain; 
-        background-repeat: no-repeat;
-    }
+            width: 194px;
+            height: 70px;
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: -5px;
+            background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/png/1581004434000/KREIT.White.png);
+            background-size: contain; 
+            background-repeat: no-repeat;
+        }
         a .directory_content:hover{
             color: #666 !important;
         }
@@ -242,7 +242,7 @@
             right: unset;
             left: 0;
             bottom: -45px;
-            background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1579718284000/K.REIT.Green.jpeg);
+            /*background-image: url(//codecloud.cdn.speedyrails.net/sites/5afddda06e6f646e32410000/image/jpeg/1579718284000/K.REIT.Green.jpeg);*/
             background-size: contain; 
             background-repeat: no-repeat;
         }
