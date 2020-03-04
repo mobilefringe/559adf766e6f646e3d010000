@@ -22,33 +22,32 @@
                         <p class="directory_content">{{address1}}</p>
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                         <br>
-                    <p class="directory_content"><strong>Dan Free</strong> 
-                    <br>General Manager
-                    <br>(905) 822-0344
-                    <br><a href="mailto:dfree@bentallkennedy.com">dfree@bentallkennedy.com</a></p>
-                    <br>
-                    <p class="directory_content"><strong>Paul Ceresne</strong> 
-                    <br>Director, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:pceresne@bentallkennedy.com">pceresne@bentallkennedy.com</a>
-                    <br>*Sales Representative</p>
+                        <p class="directory_content"><strong>Dan Free</strong> 
+                        <br>General Manager
+                        <br>(905) 822-0344
+                        <br><a href="mailto:dfree@bentallkennedy.com">dfree@bentallkennedy.com</a></p>
+                        <br>
+                        <p class="directory_content"><strong>Paul Ceresne</strong> 
+                        <br>Director, Leasing*
+                        <br>1.866.681.2715
+                        <br><a href="mailto:pceresne@bentallkennedy.com">pceresne@bentallkennedy.com</a>
+                        <br>*Sales Representative</p>
                     </script>
                 </div>
             </div>
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
-              <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-              <span class="sr-only">Success</span>
-              Thank you for contacting us. A member from our team will contact you shortly. 
-                  
-             </div>
-             <div id="send_contact_error" class="alert alert-danger" role="alert" style="display:none">
-              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-              <span class="sr-only">Error:</span>
-              There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
-             </div>
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                <span class="sr-only">Success</span>
+                Thank you for contacting us. A member from our team will contact you shortly. 
+            </div>
+            <div id="send_contact_error" class="alert alert-danger" role="alert" style="display:none">
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
+            </div>
             <form name="contact_form" id="contact_form" method="post">
                 <div class="row" style="margin-left:-15px;margin-right:-15px">
-                <div class="col-sm-12 col-md-12">
+                    <div class="col-sm-12 col-md-12">
                         <p>We value your feedback. Send us your comments or questions by completing the contact form below.</p>
                     </div>
                     <div class="col-sm-6 col-md-6">
@@ -73,22 +72,18 @@
                         <label for="message">Message</label>
                         <textarea name="message" id="message" rows="8" class="form-control" required></textarea>
                     </div>
-                    <div class="col-sm-12 col-md-12">
                     <br>
+                    <div class="col-sm-12 col-md-12">
                         <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
                         <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
                         <input type="text" id="enterVerify" name="enterVerify" />
                     </div>
                 </div>
-                
                 <div class="row" style="margin-left:-15px;margin-right:-15px">
-                        <div class="col-sm-12 col-md-12"><br/>
+                    <div class="col-sm-12 col-md-12"><br/>
                         <button id="submit" class="btn btn-primary" type="submit">Submit</button>
                     </div>
                 </div>
-                
-                
-                
             </form>
         </div>
         <div class="right_column">
@@ -96,14 +91,12 @@
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">{{name}}</p>
-                    <p class="directory_content">{{address1}}</p>
+                    <p class="directory_content">{{address1}},</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                     <br>
                     <div id="mm_page_content" class="directory_content"></div>
                 </script>
             </div>
-            
-            
         </div>
     </div>
 </div>
