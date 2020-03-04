@@ -326,7 +326,7 @@
                             <h3 class="footer_text" style="font-size:17px;width:300px;">{{name}}</h3>
                             <p class="footer_text" style="width:300px;font-size:17px">
                             {{address1}}</br>
-                            {{city}}, {{province_state}}
+                            {{city}}, {{province_state}}, {{postal_code}}
                         
                             </p>
                             <p><i class="fa fa-phone"></i>        {{contact_phone}}</p>
