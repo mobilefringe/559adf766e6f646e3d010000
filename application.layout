@@ -390,7 +390,8 @@
                                             <span>Today's Hours </span>
                                         </small>
                                         <small class="pull-right" id="todays-hours-search"></small>
-                                        <script id="todays_hours_search_template" type="x-tmpl-mustache/text">{% raw %}
+                                        <script id="todays_hours_search_template" type="x-tmpl-mustache/text">
+                                        {% raw %}
                                             <span>{{hours}}</span>
                                         </script>
                                         {% endraw %}
@@ -399,9 +400,9 @@
                             </ul>
                         </div>
                     </div>
-                     <a href="//killamreit.com/" target="_blank">
-                    <div class="k-reit-logo"><p style="display:none">Killam Reit</p></div>
-                </a>
+                    <a href="//killamreit.com/" target="_blank">
+                        <div class="k-reit-logo"><p style="display:none">Killam Reit</p></div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -411,9 +412,6 @@
                     <li>
                         <a href="/stores">Store Directory</a>
                     </li>
-                    <!--<li>-->
-                    <!--    <a href="/promotions">Promotions</a>-->
-                    <!--</li>-->
                     <li>
                         <a href="/leasing">Leasing</a>
                     </li>
